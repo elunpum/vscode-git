@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-#### This is  SDN branch #####
+#### This is  SDN branch ####
 
 #Introduction
 git init ( add repo)
@@ -45,6 +45,17 @@ Usually occurs when merge files that have chganes in the same files
 if errors, then you can exit from the merge
 > git merge --abort  > come out from the merge error
 > git status > would show us the error merge has come out.
+
+# the detach head state
+when you go > git checkout HEX(rather than name you cearte detach head state
+
+# git stash
+If you try to change to another branches without commiting, git would block you until commint is done or stashing it
+> git stash  > save our change to 
+> git statsh list ? see the stashing
+> git stash apply
+> get diff to comprare the difference between stash and file
+> git stash save "comment"
 
 
 

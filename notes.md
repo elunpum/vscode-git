@@ -40,4 +40,10 @@ If you are sure you want to delete it, run 'git branch -D auth'
 # 3 way merged: this case is the auth into master.
 git look at 3 commit: first the base commit from master to auth, then last commit fromeach branch
 
+# Conflic when merging conflict
+Usually occurs when merge files that have chganes in the same files
+> git checkout -b dev  > create and check out a new branch.
+if errors, then you can exit from the merge
+> git merge --auth
+
 

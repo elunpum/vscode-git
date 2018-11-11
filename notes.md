@@ -3,6 +3,7 @@
 git init ( add repo)
 git add #name -> stage file
 git commit -m " commit file"
+git -a -m "notes" -> this would stage and commit any files"
 git status 
 git log - show our commint history
 git log --all --decorate --oneline --graph (show nice label commit graph) --> created an alis: alias graph="git log --all --decorate --oneline --graph"

@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 #### This is  SDN branch #####
-=======
 
 #Introduction
 git init ( add repo)
@@ -44,6 +43,8 @@ git look at 3 commit: first the base commit from master to auth, then last commi
 Usually occurs when merge files that have chganes in the same files
 > git checkout -b dev  > create and check out a new branch.
 if errors, then you can exit from the merge
-> git merge --auth
+> git merge --abort  > come out from the merge error
+> git status > would show us the error merge has come out.
+
 
 

@@ -1,0 +1,2 @@
+# Connecto power shell to Azure
+Azure Sign In

@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3"
+    "python.pythonPath": "C:\\Tools\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.enabled": true
 }
